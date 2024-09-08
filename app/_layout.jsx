@@ -4,6 +4,7 @@ import { Slot ,Stack ,SplashScreen } from 'expo-router'
 
 import { useFonts } from "expo-font";
 
+SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
     
