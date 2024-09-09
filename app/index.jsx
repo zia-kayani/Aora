@@ -11,11 +11,6 @@ import { Redirect, router } from "expo-router";
 const App = () => {
 
   return (
-    // <View className="flex-1 items-center justify-center bg-white">
-    //   <Text className='text-3xl font-plight'> Aora </Text>
-    //   <Link href='/home' style={{color:'blue'}}>Go to Home</Link>
-    // </View>
-
     <SafeAreaView className="bg-primary h-full">
       <ScrollView contentContainerStyle={{ height: '100%' }}>
         <View className='content-center items-center h-full min-w-full px-4'>
